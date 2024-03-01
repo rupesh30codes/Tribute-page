@@ -1,0 +1,134 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    color: white;
+    background-color: black;
+    overflow-x: hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: #333533;
+    padding: 15px 10px;
+    overflow: auto;
+    top: 0;
+    border-bottom: 1px solid rgba(41, 39, 39, 0.788);
+    z-index: 999;
+}
+.navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    display: inline;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.container{
+    height: 100%;
+    text-align: center;
+}
+.section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    height: 230px;
+    width: 230px;
+    object-fit: contain;
+    border-radius: 1rem ;
+    outline: 2px solid orange;
+    margin-top: 1.5rem;
+}
+.personal-info{
+    margin-top: 1rem;
+    background-color: rgba(128, 128, 128, 0.137);
+    border-radius: 20px;
+    padding: 50px;
+    height: 120px;
+    width: 80%;
+}
+.personal-info h2{
+    color:orange;
+    text-align: left;
+    margin-bottom:.5rem;
+    margin-top:-2rem;
+}
+p{
+    text-align: left;
+    line-height: 1.5rem;
+}
+hr {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+container{
+    margin-top: 5rem;
+}
+.container-2 h2{
+    margin-top: 5rem;
+    text-align: center;
+    color: red;
+}
+.rapping-section{
+    display: flex;
+    justify-content: center;
+    margin-top:2rem ;
+}
+.rapping-section img{
+    height: 250px;
+    border-radius: 1rem ;
+    outline: 2px solid orange;
+}
+.carrer-rap{
+    margin-top: 2rem;
+    background-color: rgba(128, 128, 128, 0.137);
+    border-radius: 20px;
+    padding: 50px;
+    height: 800px;
+    width: 80%;
+}
+h3{
+    color:orange;
+    text-align: left;
+    margin-bottom:.5rem;
+}
+.journey{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.journey img{
+    height: 250px;
+    width: 250px;
+    border-radius: 1rem ;
+    outline: 2px solid orange;
+    margin-top: 1.5rem;
+}
+.raw-journey{
+    margin-top: 2rem;
+    background-color: rgba(128, 128, 128, 0.137);
+    border-radius: 20px;
+    padding: 25px;
+    height: 175px;
+    width: 80%;
+}
+.videos{
+    display: flex;
+}
+#discography p{
+    color:white;
+    text-align: left;
+}
